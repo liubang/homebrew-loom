@@ -6,6 +6,7 @@ Homebrew tap for [Loom](https://loom.liubang.cc) — a production-grade AI codin
 
 ```bash
 brew tap liubang/loom
+brew trust liubang/loom   # macOS: trust third-party tap (required by newer Homebrew)
 brew install loom-cli
 ```
 
@@ -13,6 +14,7 @@ brew install loom-cli
 
 ```bash
 brew tap liubang/loom
+brew trust liubang/loom
 brew install --cask loom-agent
 ```
 
