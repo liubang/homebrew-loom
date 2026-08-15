@@ -6,7 +6,7 @@ Homebrew tap for [Loom](https://loom.liubang.cc) — a production-grade AI codin
 
 ```bash
 brew tap liubang/loom
-brew install loom
+brew install loom-cli
 ```
 
 ## Install desktop app (macOS)

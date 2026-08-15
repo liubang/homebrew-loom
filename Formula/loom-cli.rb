@@ -1,4 +1,4 @@
-class Loom < Formula
+class LoomCli < Formula
   desc "Production-grade AI coding agent for software engineering tasks"
   homepage "https://loom.liubang.cc"
   version "20260815.1fc8010d"
