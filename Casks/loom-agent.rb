@@ -1,7 +1,7 @@
 cask "loom-agent" do
-  version "20260815.ffef73e6"
-  sha256 arm:   "1736a43ff29b29ba7054c0000ed03d00ad9ddc0d16af63be5c9e2d3c399cc627",
-         intel: "d777ddc547b25b19dd8f156e83dc3ffbdf0d8afb66c3caa97f534ce98d750087"
+  version "20260819.9ff69050"
+  sha256 arm:   "4c668c1df97ad436c05cf60b8012a78300a47eb7ffcb207a98c8004238a6d712",
+         intel: "8cd4ff8672a8747d711b587fe46acabe19d47fb08d42ee11c8c8c946ecab9c70"
 
   url "https://github.com/liubang/playground/releases/download/#{version}/Loom-#{version}-macos-arm64.dmg",
       verified: "github.com/liubang/playground/releases/download/"

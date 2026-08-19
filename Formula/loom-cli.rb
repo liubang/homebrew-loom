@@ -1,28 +1,28 @@
 class LoomCli < Formula
   desc "Production-grade AI coding agent for software engineering tasks"
   homepage "https://loom.liubang.cc"
-  version "20260815.ffef73e6"
+  version "20260819.9ff69050"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/liubang/playground/releases/download/20260815.ffef73e6/loom-darwin-arm64.tar.gz"
-      sha256 "b5afafa88046d059031589d5cc2a65a7b8e4c5f5409d4ec0457f1e7bad0ce0d5"
+      url "https://github.com/liubang/playground/releases/download/20260819.9ff69050/loom-darwin-arm64.tar.gz"
+      sha256 "bb41c1c1327a3346688b8378a0dc7b48bf23027db3f804fc9d440c19c9ca648a"
     end
     on_intel do
-      url "https://github.com/liubang/playground/releases/download/20260815.ffef73e6/loom-darwin-amd64.tar.gz"
-      sha256 "7a76226090eb30bba55e8a795b29786c824fa8b187aa2dcb72ac5198d37cdf8e"
+      url "https://github.com/liubang/playground/releases/download/20260819.9ff69050/loom-darwin-amd64.tar.gz"
+      sha256 "d4ba62cd08102dadecdd8da8bfc43ffa16d39676dff1d701c53fe76cf569ee2c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/liubang/playground/releases/download/20260815.ffef73e6/loom-linux-arm64.tar.gz"
-      sha256 "ce763d9eda65053a961c0755da18096e0d07359695bffb9b97b0a1ecaffbf97b"
+      url "https://github.com/liubang/playground/releases/download/20260819.9ff69050/loom-linux-arm64.tar.gz"
+      sha256 "b75f6feac0503b4d0550a10505100fd4a1bf5f55bbf6b72c980c23de94fc06e5"
     end
     on_intel do
-      url "https://github.com/liubang/playground/releases/download/20260815.ffef73e6/loom-linux-amd64.tar.gz"
-      sha256 "9df95399b850dbe93302e01f15c9a6fe15a5950019f7b2ca8843bddb555f7301"
+      url "https://github.com/liubang/playground/releases/download/20260819.9ff69050/loom-linux-amd64.tar.gz"
+      sha256 "7b077994389fff1bf8f64f2b01d2ff76cda80142f0437337185e07e948f6e8b1"
     end
   end
 
