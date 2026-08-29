@@ -15,6 +15,7 @@ cask "loom-agent" do
   end
 
   app "Loom.app"
+  no_quarantine
 
   zap trash: "~/.loom"
 end
